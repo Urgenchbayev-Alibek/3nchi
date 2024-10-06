@@ -3,3 +3,23 @@ nimadur nimadur nimadur
 yana nimadur 
 
 bu yerda yana nimadur bolishi mumkin edi😁
+
+3) 
+namespace ConsoleApp1;
+
+public class Program
+{
+    public static void Main()
+    {
+        Console.Write("a = ");
+        int a = Convert.ToInt32(Console.ReadLine());
+        Console.Write("b = ");
+        int b = Convert.ToInt32(Console.ReadLine());
+        int perimetr = 2 * (a + b);
+        Console.WriteLine("perimetr = "+ perimetr);
+        int yuza = a * b;
+        Console.Write("yuza = " + yuza);
+    }
+
+}
+C# da oddiy kod
