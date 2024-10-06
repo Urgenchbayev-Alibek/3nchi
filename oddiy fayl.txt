@@ -4,7 +4,7 @@ yana nimadur
 
 bu yerda yana nimadur bolishi mumkin edi😁
 
-3) 
+4) 
 namespace ConsoleApp1;
 
 public class Program
@@ -23,3 +23,19 @@ public class Program
 
 }
 C# da oddiy kod
+
+5)
+with open("matn.txt", 'w') as file:
+    file.write("Hello File")
+
+with open("matn.txt", 'w') as file:
+    file.writelines("Bu juda oson mavzu ekan. \nMenga yoqdi bu mavzu.")
+
+# with open("matn.txt", 'r') as file:
+#     print(file.read())
+
+with open("matn.txt", 'r') as file:
+    for index, line in enumerate(file):
+        print(f"{index+1}." , line.strip())
+
+python da fayllar bilan ishlash
